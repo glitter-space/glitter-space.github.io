@@ -4386,7 +4386,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  padding: 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
@@ -4394,18 +4394,12 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
-.navbar-toggler:hover, .navbar-toggler:focus {
-  text-decoration: none;
+.navbar-toggler-label {
+  margin: 0;
 }
 
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
+.navbar-toggler:hover, .navbar-toggler:focus {
+  text-decoration: none;
 }
 
 @media (max-width: 575.98px) {
