@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2, .h2 {
@@ -386,6 +386,14 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
+}
+
+.col-md-4 a {
+    color: #fff;
+}
+
+.col-md-4 a:active {
+    text-decoration: none;
 }
 
 .albumImg {
@@ -569,18 +577,21 @@ pre code {
   .container {
     /*max-width: 720px;*/
   }
-.container {
+ .container {
   width: 100%;
   padding-right: 2em;
   padding-left: 2em;
   margin-right: auto;
   margin-left: auto;
 }
+    .py-5 {
+        padding-top: 4rem !important;
+    }
 }
 
 @media (max-width: 767px){
     h1 {
-     font-size: 2rem;   
+     font-size: 1.5rem;   
     }
     .lead {
         font-size: 1rem;
@@ -5307,11 +5318,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .jumbotron h1 {
   font-weight: 300;
+  max-width: 49rem;    
 }
 
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: 5rem;
+    padding-top: 4rem;
     padding-bottom: 4rem;
   }
 }
@@ -8433,7 +8445,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 1rem !important;
+  /*padding-top: 3rem !important;*/
 }
 
 .pr-5,
