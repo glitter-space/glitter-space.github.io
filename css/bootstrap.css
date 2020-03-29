@@ -396,6 +396,10 @@ h6, .h6 {
     text-decoration: none;
 }
 
+.col-md-4 a:hover {
+    text-decoration: none;
+}
+
 .albumImg {
   width: 100%;
   height: 50vw;
