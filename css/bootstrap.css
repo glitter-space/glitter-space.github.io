@@ -4748,7 +4748,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  text-decoration: none;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -5312,7 +5312,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .jumbotron {
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0;
   margin-bottom: 0;
 }
 
@@ -5328,7 +5328,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 0;
   }
 }
 
@@ -8459,7 +8459,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pl-5,
