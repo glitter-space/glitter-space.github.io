@@ -522,6 +522,18 @@ mark,
   color: #C5BAAF;
 }
 
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
 code {
   font-size: 87.5%;
   color: #DD9A71;
@@ -8294,6 +8306,7 @@ button.bg-dark:focus {
   margin-bottom: 1.5rem !important;
 }
 
+
 .ml-4,
 .mx-4 {
   margin-left: 1.5rem !important;
@@ -9015,11 +9028,11 @@ button.bg-dark:focus {
     margin-left: 0.5rem !important;
   }
   .m-md-3 {
-    margin: 1rem !important;
+    margin: 0rem !important;
   }
   .mt-md-3,
   .my-md-3 {
-    margin-top: 1rem !important;
+    margin-top: 4rem !important;
   }
   .mr-md-3,
   .mx-md-3 {
