@@ -400,6 +400,49 @@ h6, .h6 {
     text-decoration: none;
 }
 
+.portfolio-text-left {
+  color: #fff;
+  margin-right: 0rem !important;
+  padding: 1rem 4rem 0 1rem !important;
+  overflow: hidden !important;
+}
+
+.portfolio-text-right {
+  color: #fff;
+  margin-right: 0rem !important;
+  padding: 1rem 2rem 0 1rem !important;
+  overflow: hidden !important;
+}
+
+.portfolio-image-left {
+  margin-right: 0rem !important;
+  padding: 1rem 4rem 0 1rem !important;
+  overflow: hidden !important;
+}
+
+.portfolio-image-right {
+  margin-right: 0rem !important;
+  padding: 1rem 4rem 0 1rem !important;
+  overflow: hidden !important;
+}
+
+.portfolio-image-100 {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 1.75rem;
+  margin-bottom: .25rem;
+}
+
+.portfolio-text {
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+}
+
 .albumImg {
   width: 100%;
   height: 50vw;
