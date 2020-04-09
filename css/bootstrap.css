@@ -649,19 +649,22 @@ pre code {
 }
 
 @media (max-width: 767px){
-    h1 {
-     font-size: 1.5rem;   
-    }
-    .lead {
-        font-size: 1rem;
-    }
-    .jumbotron {
-        padding-top: 1rem !important;
-        padding-bottom: 0.5rem !important;
-    }
-    .py-5 {
-        padding-top: 2rem !important;
-    }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  .jumbotron {
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .py-5 {
+    padding-top: 2rem !important;
+  }
+  .portfolio-text-left, .portfolio-text-right, .portfolio-image-left, .portfolio-image-right {
+    padding: 1rem 1rem 1rem 0 !important
+  }
 }
 
 @media (min-width: 992px) {
