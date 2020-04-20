@@ -392,11 +392,23 @@ h6, .h6 {
     color: #fff;
 }
 
+.col-md-6 a {
+    color: #fff;
+}
+
 .col-md-4 a:active {
     text-decoration: none;
 }
 
+.col-md-6 a:active {
+    text-decoration: none;
+}
+
 .col-md-4 a:hover {
+    text-decoration: none;
+}
+
+.col-md-6 a:hover {
     text-decoration: none;
 }
 
@@ -446,6 +458,15 @@ h6, .h6 {
 .albumImg {
   width: 100%;
   height: 50vw;
+  max-height: 320px;
+  padding-bottom: 10%;
+  background-color: aliceblue;
+}
+
+.albumImg-lg {
+  width: 100%;
+  height: 30vw;
+  max-height: 480px;
   padding-bottom: 10%;
   background-color: aliceblue;
 }
@@ -664,6 +685,9 @@ pre code {
   }
   .portfolio-text-left, .portfolio-text-right, .portfolio-image-left, .portfolio-image-right {
     padding: 1rem 1rem 1rem 0 !important
+  }
+  .albumImg, .albumImg-lg {
+    height: 55vw;
   }
 }
 
