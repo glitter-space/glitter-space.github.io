@@ -415,27 +415,33 @@ h6, .h6 {
 .portfolio-text-left {
   color: #fff;
   margin-right: 0rem !important;
-  padding: 1rem 4rem 0 1rem !important;
+  padding: 1rem 1rem 0 1rem !important;
   overflow: hidden !important;
 }
 
 .portfolio-text-right {
   color: #fff;
   margin-right: 0rem !important;
-  padding: 1rem 2rem 0 1rem !important;
+  padding: 1rem 1rem 0 1rem !important;
   overflow: hidden !important;
 }
 
 .portfolio-image-left {
   margin-right: 0rem !important;
-  padding: 1rem 4rem 0 1rem !important;
+  padding: 1rem 1rem 0 1rem !important;
   overflow: hidden !important;
+  max-height: 100%;
+  height: auto;
+  width: 100% !important;
 }
 
 .portfolio-image-right {
   margin-right: 0rem !important;
-  padding: 1rem 4rem 0 1rem !important;
+  padding: 1rem 1rem 0 1rem !important;
   overflow: hidden !important;
+  max-height: 100%;
+  height: auto;
+  width: 100% !important;
 }
 
 .portfolio-image-100 {
