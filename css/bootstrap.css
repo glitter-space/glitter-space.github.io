@@ -633,8 +633,9 @@ h6, .h6 {
   height: 30vw;
   max-height: 480px;
   padding-bottom: 10%;
-  background-image: url("img/nprOne-thumbnail-lg.png");
+  background-image: url("https://technicalfruit.com/img/nprOne-thumbnail-lg.png");
   background-size: cover;
+  background-position: center;
 }
 
 .lead {
@@ -874,7 +875,7 @@ pre code {
   .portfolio-text-left, .portfolio-text-right, .portfolio-image-left, .portfolio-image-right {
     padding: 1rem 0 0 0 !important;
   }
-  .albumImg, .albumImg-lg {
+  .albumImg, .albumImg-lg, .albumImg-lg-2, .albumImg-sm-1 {
     height: 55vw;
   }
   
@@ -980,7 +981,7 @@ pre code {
   .container, .container-sm, .container-md {
     /*max-width: 720px;*/
   }
-  .albumImg {
+  .albumImg, .albumImg-lg-2, .albumImg-sm-1 {
     width: 100%;
     height: 25vw;
     padding-bottom: 10%;
