@@ -356,6 +356,7 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+  font-size: .75rem;
 }
 
 [hidden] {
