@@ -645,6 +645,9 @@ h6, .h6 {
   height: 30vw;
   max-height: 480px;
   padding-bottom: 10%;
+  background-image: url("https://technicalfruit.com/img/thumbnailSoundscape.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .albumImg-lg-2 {
