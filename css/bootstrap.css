@@ -434,7 +434,7 @@ h6, .h6 {
 
 .portfolio-image-left {
   margin-right: 0rem !important;
-  padding: 1rem 1rem 0 0 !important;
+  padding: 0 5% !important;
   overflow: hidden !important;
   max-height: 100%;
   height: auto;
@@ -443,7 +443,7 @@ h6, .h6 {
 
 .portfolio-image-right {
   margin-right: 0rem !important;
-  padding: 1rem 0 0 1rem !important;
+  padding: 0 5% !important;
   overflow: hidden !important;
   max-height: 100%;
   height: auto;
@@ -618,6 +618,9 @@ h6, .h6 {
   height: 50vw;
   max-height: 320px;
   padding-bottom: 10%;
+  background-image: url("https://technicalfruit.com/img/thumbnailBee.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .albumImg-sm-1 {
@@ -894,8 +897,14 @@ pre code {
   .py-5 {
     padding-top: 2rem !important;
   }
-  .portfolio-text-left, .portfolio-text-right, .portfolio-image-left, .portfolio-image-right {
+  .portfolio-text-left, .portfolio-text-right {
     padding: 1rem 0 0 0 !important;
+  }
+  .portfolio-image-left {
+    padding: 0 1rem 2rem 1rem !important;
+  }
+  .portfolio-image-right {
+    padding: 0 1rem !important
   }
   .albumImg, .albumImg-lg, .albumImg-lg-2, .albumImg-sm-1, .albumImg-sm-2 {
     height: 55vw;
