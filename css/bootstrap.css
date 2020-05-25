@@ -632,6 +632,36 @@ h6, .h6 {
   display: none;
 }
 
+.one-dlr {
+  width: 50%;
+  max-width: 748px;
+  height: auto;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+
+.two-dlr {
+  width: 50%;
+  max-width: 748px;
+  height: auto;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.three-dlr {
+  width: 50%;
+  max-width: 748px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.four-dlr {
+  width: 50%;
+  max-width: 748px;
+  height: auto;
+  margin-left: 1rem;
+}
+
 .albumImg {
   width: 100%;
   height: 50vw;
@@ -1013,6 +1043,31 @@ pre code {
     max-width: 50%;
     padding: 0 4%;
  }
+  
+  .one-dlr {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .two-dlr {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .three-dlr {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .four-dlr {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
   
 }
 
