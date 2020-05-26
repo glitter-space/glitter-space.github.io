@@ -662,6 +662,53 @@ h6, .h6 {
   margin-left: 1rem;
 }
 
+.visual-inspo {
+  width: 95%;
+  margin-bottom: 5%;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sep-line {
+  height: 1px;
+  width: 15%;
+  background-color: #9DA883;
+  margin: 0 auto 3% auto;
+}
+
+.lobby-one, .lobby-two, .lobby-three, .lobby-four {
+  width: 20%;
+  max-width: 279px;
+  height: auto;
+  margin-right: 2%;
+  margin-bottom: 5%;
+}
+
+.lobby-five {
+  width: 20%;
+  max-width: 279px;
+  height: auto;
+  margin-bottom: 5%;
+}
+
+.glow-one, .glow-two, .glow-four, .glow-five {
+  width: 33.33333%;
+  max-width: 480px;
+  height: auto;
+  margin-right: 2.5%;
+}
+
+.glow-three, .glow-six {
+  width: 33.33333%;
+  max-width: 480px;
+  height: auto;
+}
+
+.glow-one, .glow-two, .glow-three {
+  margin-bottom: 2rem;
+}
+
 .albumImg {
   width: 100%;
   height: 50vw;
@@ -914,6 +961,40 @@ pre code {
     height: auto;
     width: 100% !important;
   }
+  
+  .lobby-one, .lobby-four {
+    display: none;
+  }
+  
+  .lobby-two, .lobby-three {
+    width: 50% !important;
+    margin-right: 6% !important;
+    margin-bottom: 6.5% !important;
+  }
+  
+  .lobby-three {
+    margin-right: 0 !important;
+  }
+
+  .lobby-five {
+    display: none;
+  }
+  
+  .glow-one, .glow-two, .glow-five, .glow-six {
+    width: 50% !important;
+    max-width: 480px;
+    height: auto;
+    margin-right: 4% !important;
+  }
+
+  .glow-three, .glow-four {
+    display: none;
+  }
+
+  .glow-two, .glow-six {
+    margin-right: 0 !important;
+  }
+  
 }
 
 @media (min-width: 768px) {
@@ -1067,6 +1148,40 @@ pre code {
     width: 100%;
     height: auto;
     margin-left: 0;
+  }
+  
+  .lobby-one, .lobby-two, .lobby-three, .lobby-four {
+    width: 25%;
+    margin-right: 3%;
+  }
+  
+  .lobby-four {
+    margin-right: 0; 
+  }
+
+  .lobby-five {
+    display: none;
+  }
+
+  .glow-one, .glow-two, .glow-four, .glow-five {
+    width: 33.33333%;
+    max-width: 480px;
+    height: auto;
+    margin-right: 3%;
+  }
+
+  .glow-three, .glow-six {
+    width: 33.33333%;
+    max-width: 480px;
+    height: auto;
+  }
+
+  .glow-one, .glow-two, .glow-three {
+    margin-bottom: 2rem;
+  }
+  
+  .d-md-flex {
+    display: flex !important;
   }
   
 }
