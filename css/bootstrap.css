@@ -1150,6 +1150,10 @@ pre code {
     margin-left: 0;
   }
   
+  .wrap-dlr {
+    flex-wrap: wrap !important;
+  }
+  
   .lobby-one, .lobby-two, .lobby-three, .lobby-four {
     width: 25%;
     margin-right: 3%;
