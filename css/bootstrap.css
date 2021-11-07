@@ -615,37 +615,7 @@ h6, .h6 {
   margin-bottom: 2rem;
 }
 
-.albumImg {
-  width: 100%;
-  height: 50vw;
-  max-height: 320px;
-  padding-bottom: 10%;
-  background-image: url("https://technicalfruit.com/img/thumbnailBee.webp");
-  background-size: cover;
-  background-position: center;
-}
-
-.albumImg-sm-1 {
-  width: 100%;
-  height: 50vw;
-  max-height: 320px;
-  padding-bottom: 10%;
-  background-image: url("https://technicalfruit.com/img/thumbnailSummit.webp");
-  background-size: cover;
-  background-position: center;
-}
-
-.albumImg-sm-2 {
-  width: 100%;
-  height: 50vw;
-  max-height: 320px;
-  padding-bottom: 10%;
-  background-image: url("https://technicalfruit.com/img/thumbnail-caseStudy.webp");
-  background-size: cover;
-  background-position: center;
-}
-
-.albumImg-lg {
+.albumImg-1 {
   width: 100%;
   height: 30vw;
   max-height: 480px;
@@ -655,12 +625,52 @@ h6, .h6 {
   background-position: center;
 }
 
-.albumImg-lg-2 {
+.albumImg-2 {
   width: 100%;
   height: 30vw;
   max-height: 480px;
   padding-bottom: 10%;
   background-image: url("https://technicalfruit.com/img/nprOne-thumbnail-lg.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.albumImg-3 {
+  width: 100%;
+  height: 30vw;
+  max-height: 480px;
+  padding-bottom: 10%;
+  background-image: url("https://technicalfruit.com/img/thumbnailSummit.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.albumImg-4 {
+  width: 100%;
+  height: 30vw;
+  max-height: 480px;
+  padding-bottom: 10%;
+  background-image: url("https://technicalfruit.com/img/thumbnailBee.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.albumImg-5 {
+  width: 100%;
+  height: 30vw;
+  max-height: 480px;
+  padding-bottom: 10%;
+  background-image: url("https://technicalfruit.com/img/thumbnail-caseStudy.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.albumImg-6 {
+  width: 100%;
+  height: 30vw;
+  max-height: 480px;
+  padding-bottom: 10%;
+  background-image: url("https://technicalfruit.com/img/thumbnailJLR.webp");
   background-size: cover;
   background-position: center;
 }
