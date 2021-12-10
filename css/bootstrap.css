@@ -675,6 +675,26 @@ h6, .h6 {
   background-position: center;
 }
 
+.albumImg-7 {
+  width: 100%;
+  height: 30vw;
+  max-height: 480px;
+  padding-bottom: 10%;
+  background-image: url("https://technicalfruit.com/img/thumbnail-caseStudy1.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.albumImg-8 {
+  width: 100%;
+  height: 30vw;
+  max-height: 480px;
+  padding-bottom: 10%;
+  background-image: url("https://technicalfruit.com/img/thumbnail-caseStudy2.webp");
+  background-size: cover;
+  background-position: center;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 400;
