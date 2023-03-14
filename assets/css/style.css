@@ -41,8 +41,34 @@ h6 {
   font-weight: 300;
 }
 
-.section {
-  padding: 7rem 0;
+@media screen and (min-width: 990px) {
+  .section {padding: 3rem 0;
+ }
+}
+
+@media screen and (max-width: 989px) {
+  .section {padding: 1rem 0;
+ }
+}
+
+@media screen and (min-width: 576px) {
+      .work-card {
+    box-sizing: border-box;
+    padding: .5rem 0;
+    border-bottom: 1px none #7A8624;
+ }
+}
+
+@media screen and (max-width: 575px) {
+      .work-card {
+    box-sizing: border-box;
+    padding: .5rem 0;
+    border-bottom: 1px solid #7A8624;
+ }
+}
+
+.card-text {
+    padding: 0 1rem;
 }
 
 .filters a {
@@ -95,7 +121,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(42, 50, 39, 0.8);
   visibility: hidden;
   opacity: 0;
   transition: 0.3s all ease-in-out;
@@ -381,16 +407,28 @@ h6 {
 }
 
 /* Custom Navbar */
-.custom-navbar {
-  padding-top: 50px;
-  width: 100%;
+
+@media screen and (min-width: 990px){
+    .custom-navbar {
+    padding-top: 2rem;
+    width: 100%;
+    }
 }
+    
+@media screen and (max-width: 989px){
+    .custom-navbar {
+    padding-top: 1rem;
+    width: 100%;
+    }
+}
+    
 @media (max-width: 780px) {
   .custom-navbar > .container {
     padding-right: 20px;
     padding-left: 20px;
   }
 }
+    
 .custom-navbar .navbar-brand {
   font-size: 1.5rem;
   color: #374C2B;
